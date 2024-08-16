@@ -37,3 +37,20 @@ markdown: kramdown
 # Uncomment following line to use Formspree form ID based URL instead of email based URL
 # Details: https://help.formspree.io/hc/en-us/articles/360017735154-How-to-prevent-spam
 # formspree_form_path: "f/a_form_id"
+
+####################
+# Mine, additional
+
+timezone: UTC
+
+permalink: /:title/ # same as in https://timdeschryver.dev/blog/how-to-test-your-csharp-web-api
+
+# Front Matter Defaults
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      # type: posts
+    values:
+      layout: page
+      # read_time: true
