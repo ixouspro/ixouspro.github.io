@@ -21,7 +21,7 @@ email      : ixouspro@gmail.com # this is also the email contact forms will go t
 description: ""
 author     : ixouspro
 # logo:     #optional, defaults to site title
-  # path: assets\img\clients\creative-market.jpg
+  # path: assets\img\ixouspro-logo-110-round.png
   # height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
