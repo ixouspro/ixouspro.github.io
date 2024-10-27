@@ -16,10 +16,10 @@
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : iKthys
-email      : ikthys.co@gmail.com # this is also the email contact forms will go to
+title      : ixouspro
+email      : ixouspro@gmail.com # this is also the email contact forms will go to
 description: ""
-author     : iKthys
+author     : ixouspro
 # logo:     #optional, defaults to site title
   # path: assets\img\clients\creative-market.jpg
   # height: 60 #height in px, defaults to 52px
@@ -27,7 +27,7 @@ author     : iKthys
 locale: "en-US" # See available languages in _data/sitetext.yml
 
 analytics:
-  google: G-LVGKNCR6N1 # Google Analytics tracking code here
+  google: G-8L0EDGN1TP # Google Analytics tracking code here
 
 collections:
   portfolio:
