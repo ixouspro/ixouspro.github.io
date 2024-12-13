@@ -14,7 +14,8 @@ en: &DEFAULT_EN
     title: Welcome to our Studio!
     text: It's Nice To Meet You
     button: Tell Me More
-    buttonlink: "#services"
+    # buttonlink: "#services"
+    buttonlink: "#timeline"
 
   # services:
   #   title: "Services"
@@ -45,15 +46,15 @@ en: &DEFAULT_EN
     #start_align: "left"
     events:
       - title: "Our Humble Beginnings"
-        year: "August 2024"
+        year: "Aug 2024"
         desc: "Idea incubation."
         image: assets/img/timeline/1.jpg
         alt:
-      # - title: "Jekyll Site is created"
-      #   year: "2024"
-      #   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum"
-      #   image: assets/img/timeline/3.jpg
-      #   alt: image alt text
+      - title: "Content created"
+        year: "Dec 2024"
+        desc: "First blog post and YouTube video created."
+        image: assets/img/timeline/3.jpg
+        alt: image alt text
       # - title: "An Agency is Born"
       #   year: "2025"
       #   desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
@@ -68,11 +69,12 @@ en: &DEFAULT_EN
       #   align: right
     end: "Be Part <br> of Our <br> Story!"
 
-  about:
-    title: "About Us"
-    text: "our story"
-    body: "A self improvement project."
-    section: about
+  # about:
+  #   # title: "About Us"
+  #   # text: "our story"
+  #   title: "About"
+  #   body: "about"
+  #   section: about
 
   # clients:
   #   section: clients
@@ -92,42 +94,44 @@ en: &DEFAULT_EN
   #       url: https://github.com/raviriley/agency-jekyll-theme
   #       logo: assets/img/clients/creative-market.jpg
 
-  # team:
-  #   title: "OUR AMAZING TEAM"
-  #   text: "Lorem ipsum dolor sit amet consectetur."
-  #   subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-  #   section: team
-  #   people:
-  #     - name: "Jboy"
-  #       role: "Software Engineer"
-  #       image: assets/img/team/jboy.jpg
-  #       social:
-  #         - url: https://twitter.com
-  #           icon: fab fa-twitter
-  #         - url: https://facebook.com
-  #           icon: fab fa-facebook-f
-  #         - url: https://linkedin.com
-  #           icon: fab fa-linkedin-in
-  #     - name: "Joy"
-  #       role: "Support Engineer"
-  #       image: assets/img/team/500x500.jpg
-  #       social:
-  #         - url: https://twitter.com
-  #           icon: fab fa-twitter
-  #         - url: https://facebook.com
-  #           icon: fab fa-facebook-f
-  #         - url: https://linkedin.com
-  #           icon: fab fa-linkedin-in
-  #     - name: "Mia"
-  #       role: "Happiness Engineer"
-  #       image: assets/img/team/500x500.jpg
-  #       social:
-  #         - url: https://twitter.com
-  #           icon: fab fa-twitter
-  #         - url: https://facebook.com
-  #           icon: fab fa-facebook-f
-  #         - url: https://linkedin.com
-  #           icon: fab fa-linkedin-in
+  team:
+    title: "OUR AMAZING TEAM"
+    # text: "Lorem ipsum dolor sit amet consectetur."
+    # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: team
+    people:
+      - name: "Jboy"
+        role: "Software Engineer"
+        image: assets/img/team/jboy.jpg
+        social:
+        #   - url: https://twitter.com
+        #     icon: fab fa-twitter
+        #   - url: https://facebook.com
+        #     icon: fab fa-facebook-f
+        #   - url: https://linkedin.com
+        #     icon: fab fa-linkedin-in
+            - url: https://github.com/ixouspro
+              icon: "fab fa-github"
+      - name: "Joy"
+        role: "Support Engineer"
+        image: assets/img/team/joy.png
+        # social:
+        #   - url: https://twitter.com
+        #     icon: fab fa-twitter
+        #   - url: https://facebook.com
+        #     icon: fab fa-facebook-f
+        #   - url: https://linkedin.com
+        #     icon: fab fa-linkedin-in
+      - name: "Mia"
+        role: "Happiness Engineer"
+        image: assets/img/team/mia.png
+        # social:
+        #   - url: https://twitter.com
+        #     icon: fab fa-twitter
+        #   - url: https://facebook.com
+        #     icon: fab fa-facebook-f
+        #   - url: https://linkedin.com
+        #     icon: fab fa-linkedin-in
 
   # contact:
   #   title: "Contact Us"
