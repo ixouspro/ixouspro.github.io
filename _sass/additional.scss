@@ -9,8 +9,27 @@
 
 .page-content {
     font-size: 120%;
+
+    p {
+        line-height: 1.5;
+    }
 }
 
 .page-title {
     padding-bottom: 0.5em;
+}
+
+
+blockquote {
+    color: #5f5f5f;
+    font-style: normal;
+    padding: .5rem 1rem;
+    font-size: 105%;
+    border-left: .40rem solid #eee;
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
