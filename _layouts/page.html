@@ -9,9 +9,24 @@ document.getElementById("page-top").className="bg-light";
 </script>
 {% endif %}
 
-<div class="container" id="pagecontainer" style="padding-right: 20em;">
+<div class="container page-container" id="pagecontainer" >
     <h1 class="page-title">{{ page.title }}</h1>
-    <div class="page-content">
-        {{ content }}
+    <div class="row py-3">   
+        <!-- Sidebar using Bootstrap 4 from https://stackoverflow.com/a/49436717/1451757 -->
+        <div class="col-md-3 order-2" id="sticky-sidebar">
+            <div class="sticky-top mt-5"  style="top: 80px">
+                <div class="nav flex-column mt-5">
+                    <!--
+                    <img src="/assets/img/team/500x500.jpg" width="100%" />
+                    <a href="#_" class="nav-link">Link</a>
+                    -->
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1s3Rp82gIrYVnVSrSZQq71?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+                </div>
+            </div>
+        </div>     
+        <div class="col-md-9 page-content">
+            {{ content }}
+        </div>
     </div>
 </div>
